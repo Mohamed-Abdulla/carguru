@@ -38,7 +38,7 @@ services:
       DB_USER: ${POSTGRES_USER}
       DB_PASSWORD: ${POSTGRES_PASSWORD}
       DB_POOL_MAX: 10
-      CORS_ORIGINS: http://localhost:${FRONTEND_PORT}
+      CORS_ORIGINS: http://localhost:${FRONTEND_PORT},https://carguru-frontend.vercel.app
     ports:
       - "${BACKEND_PORT}:${BACKEND_PORT}"
     healthcheck:
