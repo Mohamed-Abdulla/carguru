@@ -1,0 +1,6 @@
+[submodule "carguru-frontend"]
+	path = carguru-frontend
+	url = https://github.com/Mohamed-Abdulla/carguru-frontend.git
+[submodule "carguru-backend"]
+	path = carguru-backend
+	url = https://github.com/Mohamed-Abdulla/carguru-backend.git
